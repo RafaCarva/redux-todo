@@ -1,0 +1,1 @@
+Regra: "Smart Components" não devem conter nenhuma lógica de negócio além de despachar ações.

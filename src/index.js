@@ -5,9 +5,11 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
-import todoApp from './reducers'
+import todoApp from './reducers/index'
 import App from './components/App'
 
+
+//ele está lendo o index.js que agrupa os reducers? sim
 let store = createStore(todoApp)
 
 ReactDOM.render(

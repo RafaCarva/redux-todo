@@ -16,6 +16,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   }
 }
 
+//esse esquema é o padrão 'decorator'.
+//o resultado da chamada ao connect() retorna uma função
+//que vai passar o (Counter) como parâmetro.
 const FilterLink = connect(
   mapStateToProps,
   mapDispatchToProps
